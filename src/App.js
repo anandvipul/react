@@ -6,6 +6,9 @@ import Hello from './components/hello';
 import Welcome from './components/welcome';
 import Message from './components/message';
 import Counter from './components/counter';
+import Click from './components/FunctionClick';
+import ClassClick from './components/classClick';
+import Event from './components/EventBind';
 
 
 function App() {
@@ -32,7 +35,10 @@ function App() {
 
         </Message> */}
 
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
+        {/* <Click></Click> */}
+        {/* <ClassClick></ClassClick> */}
+        <Event></Event>
       </header>
     </div>
   );
