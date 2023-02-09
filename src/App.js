@@ -4,6 +4,9 @@ import './App.css';
 import './components/hello';
 import Hello from './components/hello';
 import Welcome from './components/welcome';
+import Message from './components/message';
+import Counter from './components/counter';
+
 
 function App() {
   return (
@@ -21,10 +24,15 @@ function App() {
         >
           Learn React
         </a>
-        <Hello name="john Doe" heroName="diana">
+        {/* <Hello name="john Doe" heroName="diana">
           <p>hey This is the child</p>
         </Hello>
-        <Welcome name="hero" heroName="ironMan"></Welcome>
+        <Welcome name="hero" heroName="ironMan"></Welcome> */}
+        {/* <Message>
+
+        </Message> */}
+
+        <Counter></Counter>
       </header>
     </div>
   );
