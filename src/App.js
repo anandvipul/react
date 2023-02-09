@@ -21,8 +21,10 @@ function App() {
         >
           Learn React
         </a>
-        <Hello></Hello>
-        <Welcome></Welcome>
+        <Hello name="john Doe" heroName="diana">
+          <p>hey This is the child</p>
+        </Hello>
+        <Welcome name="hero" heroName="ironMan"></Welcome>
       </header>
     </div>
   );

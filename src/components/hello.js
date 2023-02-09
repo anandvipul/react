@@ -1,9 +1,14 @@
+import React from "react";
 
 
 
-
-function Hello() {
-    return <h1>Hello World</h1>;
+function Hello(props) {
+    return (
+        <div>
+            <h1>Hello {props.name} aka {props.heroName}</h1>
+        {props.children}
+        </div>
+    );
 }
 
 export default Hello;
